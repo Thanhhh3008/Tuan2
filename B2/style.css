@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+.header__heading{
+    background-image: url(background.png);
+    height: 150px;
+    display: flex;
+}
+.header__heading img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.header__heading .heading{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin:50px 0px 10px ;
+}
+.header__heading .heading p{
+    font-size: 15px;
+}
+.menu{
+    background-color: #B1AFAB;
+    height: 40px;
+    position: relative;
+}
+
+.menu  li {
+    
+    float: left;
+  
+
+}
+
+.menu li a{
+    display: block;
+    padding: 0px 0px 20px 0px;
+    margin: 20px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+   
+}
+.menu ul{
+    list-style: none;
+    overflow: hidden;
+   
+}
+main{
+    margin: 30px;
+    display: flex;
+}
+section{
+    float: left;
+    width: 73%;
+    text-align: left;
+}
+.a1{
+    display: flex;
+    
+        
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.sub1{
+    position: absolute;  
+    color: #B1AFAB; 
+}
+.a2{
+    display: flex;
+    margin-top: 50px;
+}
+aside{
+    float: right;
+    width: 300px;
+    flex: 1;
+    margin-left: 60px;
+}
+.recipes p{
+    color: #E58A9E;
+    margin: 30px 10px;
+    font-size: 20px;
+}
+footer{
+    height: 40px;
+    background-image: url(background.png);
+    position: relative;
+}
+footer p{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: white;
+}

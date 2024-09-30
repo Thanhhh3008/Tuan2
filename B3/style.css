@@ -1,0 +1,14 @@
+body{
+    background-image: url(images/background.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    height: 30%;
+    width: 60%;
+}
+.xe{
+    width: 800px;
+    height: 400px;
+}
